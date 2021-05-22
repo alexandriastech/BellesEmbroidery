@@ -1,0 +1,74 @@
+body {
+  font-family: Mukta;
+  background-image: url("images/pexels-irina-iriser-1408221.jpg");
+}
+
+nav > ul {
+  display: inline;
+}
+
+nav > ul > li {
+  display: center;
+}
+header {
+  position: fixed;
+}
+/* css for the form */
+
+.formContainer input[type="text"],
+input[type="email"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 199, 206);
+  background-color: rgb(255, 199, 206);
+}
+
+.formContainer {
+  letter-spacing: 2px;
+  color: rgb(216, 129, 139);
+  text-align: center;
+  max-width: 300px;
+  padding: 10px;
+  border: 5px solid rgb(252, 180, 188);
+  border-radius: 10px;
+  background-color: rgb(252, 180, 188);
+  box-shadow: 5px 10px rgb(238, 169, 177);
+}
+::placeholder {
+  color: white;
+}
+
+#formButton {
+  color: white;
+  letter-spacing: 2px;
+  padding: 10px 25px 10px 25px;
+  margin-bottom: 5px;
+  border: 4px solid rgb(216, 129, 139);
+  border-radius: 5px;
+  background-color: rgb(216, 129, 139);
+}
+
+#formButton:hover {
+  border: 4px solid rgb(201, 109, 119);
+  background-color: rgb(201, 109, 119);
+  transition: 0.4s ease;
+  transition-timing-function: linear;
+}
+
+.formContainer a:link,
+a:visited,
+a:active {
+  color: rgb(177, 83, 94);
+  text-decoration: none;
+}
+input[type="text"]:hover {
+  background-color: rgb(201, 109, 119);
+  transition: ease-in-out 0.4s;
+}
+
+input[type="email"]:hover {
+  background-color: rgb(201, 109, 119);
+  transition: ease-in-out 0.4s;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Belle's Embroidery</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+
+    <script>
+        function myAlert() {
+            alert("Your form has been submitted!");
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- this is my sign up form -->
+    <div class="form-popup" id="myForm">
+        <form action="/contact.html" class="formContainer">
+
+            <h3>Belle's Embroidery Club</h3>
+            <img src="images/icons8-needle-48.png" alt="">
+            <p>Please enter in your information to be apart of the embroidery club.</p>
+            <label>Name
+                <input type="text" name="name" min="5" placeholder="Jone Jones" tabindex=1 required>
+            </label> <br>
+
+            <label> Email
+                <input type="email" name="customerEmail" placeholder="Enter your email address" tabindex=2 required>
+            </label><br>
+
+            <button type="submit" value="Submit" id="formButton" onclick="myAlert()">Submit</button><br>
+
+            icon by <a href="https://icons8.com/icons/set/needle">icons8</a>.
+        </form>
+    </div>
+
+
+</body>
+
+
+
+</html>
